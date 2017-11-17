@@ -31,7 +31,9 @@ import org.schema.location.GeoCoordinates;
  */
 public class GoogleGeocoder {
 
-    public static final String GOOGLE_API_KEY = "AIzaSyAY-4RA1p8EumvdQ9jx1mrNuiHHh7CWKeY";
+   // public static final String GOOGLE_API_KEY = "AIzaSyAY-4RA1p8EumvdQ9jx1mrNuiHHh7CWKeY";
+    
+    public static final String GOOGLE_API_KEY = "AIzaSyAkH1CfXFHYSvnOMLdFPxkKKS0Msx-3FbI"; 
 
     private static final GeoApiContext context = new GeoApiContext.Builder()
             .apiKey(GOOGLE_API_KEY)
